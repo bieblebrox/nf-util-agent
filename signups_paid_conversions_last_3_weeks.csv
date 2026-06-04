@@ -1,0 +1,12 @@
+week_start_sun,week_end_sat,new_signups,new_paid_conversions
+2026-05-10,2026-05-16,28,0
+2026-05-17,2026-05-23,31,0
+2026-05-24,2026-05-30,41,0
+TOTAL,,100,0
+
+notes
+- Weeks run Sunday through Saturday (Sun-Sat, 7 days).
+- Last 3 complete weeks ending Saturday 2026-05-30; the current partial week (2026-05-31..) is not included.
+- Signups exclude @nebulae.be (internal) and +test addresses.
+- Paid conversions: user_subscriptions row created in week with payment_provider in (stripe, paypal), a real subscription_id linked, and status reaching active/cancelled/expired/past_due. Counts the conversion event regardless of whether the user later churned.
+- The 2 May 2026 paid conversions (raisingwelladmin 5/2, caleb 5/5) both fell before this 3-week window.

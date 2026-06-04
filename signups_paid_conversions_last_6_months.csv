@@ -1,0 +1,19 @@
+month,month_start,month_end,new_signups,paid_conversions_stripe,paid_conversions_paypal,paid_conversions_total
+2025-12,2025-12-01,2025-12-31,178,12,0,12
+2026-01,2026-01-01,2026-01-31,173,15,0,15
+2026-02,2026-02-01,2026-02-28,120,12,0,12
+2026-03,2026-03-01,2026-03-31,88,8,0,8
+2026-04,2026-04-01,2026-04-30,101,1,0,1
+2026-05,2026-05-01,2026-05-31,135,2,0,2
+TOTAL,,,795,50,0,50
+
+paid_conversion_detail_may_2026
+date,email,plan,stripe_subscription_id
+2026-05-02,raisingwelladmin@gmail.com,Starter,sub_1TSUicJSVOxAAdJ9v3JnWi2X
+2026-05-05,caleb@erepartners.com,Starter,sub_1TTnccJSVOxAAdJ9sRNey8Si
+
+notes
+- Last 6 complete calendar months (UTC), Dec 2025 through May 2026.
+- Signups exclude @nebulae.be and +test addresses.
+- Paid conversions: user_subscriptions row created in month with payment_provider in (stripe, paypal), a real subscription_id linked, and status reaching active/cancelled/expired/past_due (i.e. got past incomplete/pending). Counts the conversion event regardless of whether the user later churned.
+- Lifetime and crypto subscriptions are excluded — they're one-time payments and don't fit the recurring conversion model.

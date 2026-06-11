@@ -4,10 +4,17 @@
       "Read(//Users/bieblebrox/.claude/**)",
       "mcp__supabase__list_tables",
       "mcp__supabase__execute_sql",
-      "Bash(python3)"
+      "Bash(python3)",
+      "Bash(python3 *)",
+      "mcp__twenty__learn_tools",
+      "mcp__twenty__execute_tool",
+      "Bash(composio execute *)",
+      "Bash(composio search *)",
+      "Bash(wait)"
     ]
   },
   "enabledMcpjsonServers": [
-    "supabase"
+    "supabase",
+    "twenty"
   ]
 }

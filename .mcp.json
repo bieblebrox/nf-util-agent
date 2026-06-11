@@ -3,6 +3,13 @@
     "supabase": {
       "type": "http",
       "url": "https://mcp.supabase.com/mcp?project_ref=kbnyeoowisgdfonwaajy&read_only=true"
+    },
+    "twenty": {
+      "type": "http",
+      "url": "https://parmind.twenty.com/mcp",
+      "headers": {
+        "Authorization": "Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjczMDVkNTI4LTJjZmUtNDg0Yi05ZDMwLTY2NTJlNDRjOWNhNSJ9.eyJzdWIiOiIxYjk0MDE0OS0zZTM5LTQxODctOTQ2MS05ODY2ZmE1MGIwNjgiLCJ0eXBlIjoiQVBJX0tFWSIsIndvcmtzcGFjZUlkIjoiMWI5NDAxNDktM2UzOS00MTg3LTk0NjEtOTg2NmZhNTBiMDY4IiwiaWF0IjoxNzgwNTgzMzc1LCJleHAiOjQ5MzQxODMzNzQsImp0aSI6IjczNThlODEwLTE2OTMtNDE5Zi1hMjkxLTJhY2U3ZWExYjE5NSJ9.Kd31DYIzYkzcOpEoyZNVg5I5asi47UCXv5pmx8Zh5Ylxvq6FNPOlddz_SSHRl7nfUlTxzOUYTkS9plORnDXtzA"
+      }
     }
   }
 }
